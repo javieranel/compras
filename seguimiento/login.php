@@ -104,8 +104,8 @@ if (!empty($_SESSION['usuario_id'])) {
             <div class="relative">
                 <a href="#" class="inline-flex items-center gap-3" aria-label="Inicio ProcuraFlow">
                     <!-- Sustituye este isotipo por <img src='./img/logo.png'> si ya cuentas con logo. -->
-                    <span class="grid h-12 w-12 place-items-center rounded-2xl bg-gradient-to-br from-teal-300 to-cyan-500 shadow-lg shadow-teal-500/25">
-                        <svg viewBox="0 0 24 24" class="h-7 w-7 text-slate-950" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><path d="M3 6h18M6 6l1 14h10l1-14M9 10v6m6-6v6M9 6l1-3h4l1 3"/></svg>
+                    <span class="grid h-12 w-12 place-items-center rounded-3xl bg-gradient-to-br from-teal-400 to-cyan-500 text-slate-950 shadow-lg">
+                        <img src='./img/image.png' alt="Logo Melones Oil Termjpinal" class="h-10 w-10 rounded-3xl object-cover shadow-lg">
                     </span>
                     <span><strong id="brand-title" class="block text-xl font-extrabold tracking-tight">Melones Oil Terminal </strong><span class="text-xs font-medium tracking-[.2em] text-teal-200">Departamento de Compras</span></span>
                 </a>
@@ -161,16 +161,16 @@ if (!empty($_SESSION['usuario_id'])) {
                 </div>
 
                 <header class="mb-7">
-                    <p class="text-sm font-semibold text-teal-600 dark:text-teal-400">Portal empresarial</p>
+                    <p class="text-sm font-semibold text-teal-600 dark:text-teal-400">Departamento de Compras </p>
                     <h2 id="login-title" class="mt-2 text-3xl font-extrabold tracking-tight text-slate-950 dark:text-white">Bienvenido de nuevo</h2>
-                    <p class="mt-2 text-sm leading-6 text-slate-500 dark:text-slate-400">Ingresa tus credenciales para acceder a tu espacio de trabajo.</p>
+                    <p class="mt-2 text-sm leading-6 text-slate-500 dark:text-slate-400">Ingresa tus usuario y contraseña para acceder a tu espacio de trabajo.</p>
                 </header>
 
                 <form id="loginForm" class="space-y-5" autocomplete="on" novalidate>
                     <div>
                         <div class="relative">
                             <input id="usuario" name="usuario" type="text" class="field-input peer h-14 w-full rounded-xl border border-slate-300 bg-white/70 px-4 pb-2 pt-6 text-sm text-slate-950 outline-none transition placeholder:text-transparent hover:border-slate-400 focus:border-teal-500 focus:ring-4 focus:ring-teal-500/10 dark:border-slate-700 dark:bg-slate-900/65 dark:text-white dark:hover:border-slate-600" placeholder="Usuario o correo" autocomplete="username" minlength="3" required aria-describedby="usuarioError">
-                            <label for="usuario" class="field-label pointer-events-none absolute left-4 top-[1.08rem] text-sm text-slate-500 transition-all duration-200 dark:text-slate-400">Usuario o correo corporativo</label>
+                            <label for="usuario" class="field-label pointer-events-none absolute left-4 top-[1.08rem] text-sm text-slate-500 transition-all duration-200 dark:text-slate-400">Usuario</label>
                             <span id="usuarioStatus" class="absolute right-4 top-1/2 -translate-y-1/2 text-teal-500" aria-hidden="true"></span>
                         </div>
                         <p id="usuarioError" class="mt-1.5 min-h-4 text-xs text-rose-600 dark:text-rose-400" aria-live="polite"></p>
