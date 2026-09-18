@@ -1,0 +1,76 @@
+body {
+  padding-top: 70px;
+}
+
+.container-shadow {
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.15);
+  border-radius: 12px; /* opcional */
+  background-color: white; /* para que la sombra se note mejor */
+  padding: 20px; /* si no usas padding en el container */
+}
+
+.container-shadow:hover {
+  box-shadow: 0 8px 25px rgba(0, 0, 0, 0.25);
+  transition: box-shadow 0.3s ease;
+}
+
+body, html {
+      height: 100%;
+      background: linear-gradient(135deg, #4f46e5, #3b82f6);
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    }
+    .login-container {
+      height: 100%;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      padding: 1rem;
+    }
+    .login-card {
+      background: #fff;
+      padding: 2rem;
+      border-radius: 1rem;
+      box-shadow: 0 4px 25px rgba(0,0,0,0.15);
+      max-width: 400px;
+      width: 100%;
+    }
+    .login-title {
+      font-weight: 700;
+      margin-bottom: 1.5rem;
+      text-align: center;
+      color: #3b82f6;
+    }
+    .form-control:focus {
+      border-color: #4f46e5;
+      box-shadow: 0 0 0 0.2rem rgba(79, 70, 229, 0.25);
+    }
+    .btn-login {
+      background: #4f46e5;
+      border: none;
+      width: 100%;
+      padding: 0.75rem;
+      font-weight: 600;
+      font-size: 1.1rem;
+      transition: background-color 0.3s ease;
+    }
+    .btn-login:hover {
+      background: #3b36cc;
+    }
+    .input-group-text {
+      background-color: #e0e7ff;
+      border: none;
+      color: #4f46e5;
+    }
+    .form-link {
+      display: block;
+      text-align: center;
+      margin-top: 1rem;
+      font-size: 0.9rem;
+      color: #4f46e5;
+      text-decoration: none;
+      transition: color 0.3s ease;
+    }
+    .form-link:hover {
+      color: #3730a3;
+      text-decoration: underline;
+    }
