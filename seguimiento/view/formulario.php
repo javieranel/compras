@@ -7,11 +7,6 @@ if (!isset($_SESSION['nombre'])) {
     exit;
 }
 
-echo '<div class="user-banner">
-    👤 Usuario conectado:
-    <strong>' . htmlspecialchars($_SESSION['nombre']) . '</strong>
-</div>';
-
 
 require_once __DIR__ . '/../auth.php';
 include '../php/conexion.php';

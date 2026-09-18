@@ -7,10 +7,7 @@ if (!isset($_SESSION['nombre'])) {
     exit;
 }
 
-echo '<div class="user-banner">
-    👤 Usuario conectado:
-    <strong>' . htmlspecialchars($_SESSION['nombre']) . '</strong>
-</div>';
+
 
 
 include '../includes/navbar.php';

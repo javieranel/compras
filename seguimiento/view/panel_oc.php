@@ -7,18 +7,7 @@ if (!isset($_SESSION['nombre'])) {
     exit;
 }
 
-echo '<div style="
-    background:#e7f1ff;
-    color:#084298;
-    padding:15px 20px;
-    margin:20px;
-    border:1px solid #b6d4fe;
-    border-radius:10px;
-    font-family:Arial;
-">
-    👤 Usuario conectado:
-    <strong>' . htmlspecialchars($_SESSION['nombre']) . '</strong>
-</div>';
+
 
 
 require_once __DIR__ . '/../auth.php';
