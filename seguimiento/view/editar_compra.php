@@ -704,7 +704,7 @@ body {
                                     <option value="">Seleccione...</option>
                                     <option value="No">No</option>
                                     <option value="No Aplica">No Aplica</option>
-                                    <option value="Sí">Sí</option>
+                                    <option value="Si">Sí</option>
                                 </select>
                             </div>
 
@@ -727,7 +727,7 @@ body {
                                     <option value="">Seleccione...</option>
                                     <option value="No">No</option>
                                     <option value="No Aplica">No Aplica</option>
-                                    <option value="Sí">Sí</option>
+                                    <option value="Si">Sí</option>
                                 </select>
                             </div>
 
@@ -868,7 +868,7 @@ body {
         const contenedor = document.getElementById("div_fecha_llegada_isla");
 
         const reglas = {
-            "Sí":        { mostrar: true,  habilitar: true  },
+            "Si":        { mostrar: true,  habilitar: true  },
             "No":        { mostrar: true,  habilitar: false },
             "No Aplica": { mostrar: false, habilitar: false },
             "":          { mostrar: false, habilitar: false }
@@ -898,7 +898,7 @@ body {
         const contenedor = document.getElementById("div_fecha_llegada_costadeleste");
 
         const reglas = {
-            "Sí":        { mostrar: true,  habilitar: true  },
+            "Si":        { mostrar: true,  habilitar: true  },
             "No":        { mostrar: true,  habilitar: false },
             "No Aplica": { mostrar: false, habilitar: false },
             "":          { mostrar: false, habilitar: false }

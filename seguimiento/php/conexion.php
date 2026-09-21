@@ -1,9 +1,11 @@
 <?php
 
 $host = "localhost";
-$usuario = "root";
-$password = "";
+//$usuario = "root";
+$usuario = "admin";
+//$password = "";
 $base_datos = "compras";
+$password = "TuNuevaContraseña";
 
 $con = new mysqli($host, $usuario, $password, $base_datos);
 

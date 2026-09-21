@@ -15,7 +15,7 @@ if (!empty($_SESSION['usuario_id'])) {
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta name="theme-color" content="#07111f">
-    <title>ProcuraFlow | Gestión de Compras</title>
+    <title>Melones Oil Terminal | Gestión de Compras</title>
 
     <script>
         // Aplica el tema antes de pintar la página para evitar un destello de color.
@@ -102,10 +102,10 @@ if (!empty($_SESSION['usuario_id'])) {
         <section class="relative hidden flex-col justify-between overflow-hidden border-r border-white/10 p-10 text-white lg:flex xl:p-14" aria-labelledby="brand-title">
             <div class="absolute inset-0 bg-gradient-to-br from-slate-950/85 via-slate-900/62 to-teal-950/65"></div>
             <div class="relative">
-                <a href="#" class="inline-flex items-center gap-3" aria-label="Inicio ProcuraFlow">
+                <a href="#" class="inline-flex items-center gap-3" aria-label="Inicio Melones Oil Terminal">
                     <!-- Sustituye este isotipo por <img src='./img/logo.png'> si ya cuentas con logo. -->
                     <span class="grid h-12 w-12 place-items-center rounded-3xl bg-gradient-to-br from-teal-400 to-cyan-500 text-slate-950 shadow-lg">
-                        <img src='./img/image.png' alt="Logo Melones Oil Termjpinal" class="h-10 w-10 rounded-3xl object-cover shadow-lg">
+                        <img src='./img/image.png' alt="Logo Melones Oil Terminal" class="h-10 w-10 rounded-3xl object-cover shadow-lg">
                     </span>
                     <span><strong id="brand-title" class="block text-xl font-extrabold tracking-tight">Melones Oil Terminal </strong><span class="text-xs font-medium tracking-[.2em] text-teal-200">Departamento de Compras</span></span>
                 </a>
@@ -156,7 +156,7 @@ if (!empty($_SESSION['usuario_id'])) {
                         <span class="grid h-11 w-11 place-items-center rounded-2xl bg-gradient-to-br from-teal-400 to-cyan-500 text-slate-950 shadow-lg">
                             <svg viewBox="0 0 24 24" class="h-6 w-6" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><path d="M3 6h18M6 6l1 14h10l1-14M9 10v6m6-6v6M9 6l1-3h4l1 3"/></svg>
                         </span>
-                        <div><strong class="block text-lg dark:text-white">ProcuraFlow</strong><span class="text-xs font-medium text-teal-700 dark:text-teal-300">Controla tus compras en tiempo real</span></div>
+                        <div><strong class="block text-lg dark:text-white">Melones Oil Terminal</strong><span class="text-xs font-medium text-teal-700 dark:text-teal-300">Controla tus compras en tiempo real</span></div>
                     </div>
                 </div>
 
@@ -203,7 +203,7 @@ if (!empty($_SESSION['usuario_id'])) {
 
 
 
-                    <p class="text-center text-xs leading-5 text-slate-400">Al ingresar aceptas las políticas de seguridad y tratamiento de datos de la organización.</p>
+                    <p class="text-center text-xs leading-5 text-slate-400">BY MELONES OIL TERMINAL</p>
                 </form>
             </div>
         </section>

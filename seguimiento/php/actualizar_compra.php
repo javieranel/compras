@@ -34,7 +34,7 @@ $descripcion = $_POST['descripcion'] ?? '';
 $proveedor = $_POST['proveedor'] ?? '';
 $orden_compra = $_POST['orden_compra'] ?? '';
 
-$llego_costadeleste = $_POST['llego_costadeleste'] ?? 'No';
+$llego_terminal = $_POST['llego_terminal'] ?? 'No';
 
 
 $llego_isla = $_POST['llego_isla'] ?? 'No';
