@@ -2,10 +2,13 @@
 
 $host = "localhost";
 //$usuario = "root";
-$usuario = "admin";
+//$usuario = "admin";
+$usuario = "comprasseguimientoadmin";
 //$password = "";
-$base_datos = "compras";
-$password = "TuNuevaContraseña";
+//$base_datos = "compras";
+$base_datos = "comprasseguimientodb";
+//$password = "TuNuevaContraseña";
+$password = "dpQwi8#.";
 
 $con = new mysqli($host, $usuario, $password, $base_datos);
 
