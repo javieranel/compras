@@ -16,8 +16,8 @@ $(document).ready(function () {
         if (respuesta.status === 'ok') {
           alertify.success('Bienvenido');
           setTimeout(() => {
-            //window.location.href = 'https://apps.melonesoilterminal.com/compras/seguimiento/index.php'
-            window.location.href = 'http://localhost/compras/seguimiento/index.php';
+            window.location.href = 'https://apps.melonesoilterminal.com/compras/seguimiento/index.php'
+            //window.location.href = 'http://localhost/compras/seguimiento/index.php';
           }, 1000);
         } else {
           alertify.error(respuesta.message);
